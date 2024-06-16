@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import Srudent from '../asset/srudent.png'
+import student from '../asset/student.png'
 import { SiGithub } from "react-icons/si";
 import { FaTwitter ,FaLinkedin} from "react-icons/fa";
 import ExHeroPage from '../component/ExHeroPage';
@@ -16,7 +16,7 @@ const Home = (props) => {
     <div className=' flex items-center justify-center'>
       <div className=' lg:mt-8  flex  w-11/12 justify-between h-[600px]  lg:items-center'>
       <div className={`max-[400px]:hidden   ${theme==='dark'?'lightImage':'darkImage'}`}>
-      <img src={Srudent} width={500}  />
+      <img src={student} width={500}  />
       </div>
       <div className='text-white dark:text-stone-900 mt-24 lg:mt-0 '>
       <p className='lg:text-5xl text-4xl w-[400px] max-[400px]:text-balance lg:w-[700px] font-bold'>Elevating web experiences with creative precision and passion.</p>
