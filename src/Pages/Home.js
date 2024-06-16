@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import Srudent from '../asset/Srudent.png'
+import Srudent from '../asset/srudent.png'
 import { SiGithub } from "react-icons/si";
 import { FaTwitter ,FaLinkedin} from "react-icons/fa";
 import ExHeroPage from '../component/ExHeroPage';

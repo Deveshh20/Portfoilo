@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import animation from '../asset/animation.json'
 import Lottie from 'lottie-react'
 import logo192 from '../asset/logo192.png'
+import node from '../asset/node.png'
+import mongo from '../asset/mongo.png'
+import express from '../asset/express.png'
 const About = (props) => {
   const { theme, setTheme } = props
   return (
@@ -31,26 +34,26 @@ const About = (props) => {
 
 
     <div className='mt-10'>
-      <p className='text-white dark:text-stone-900 text-center  mt-10 max-[400px]:px-0 text-7xl font-bold w-screen px-[150px] py-3 mb-14 '>Skills</p>
-    </div>
-    <div className='flex justify-center gap-x-10 w-screen max-[400px]:flex-col max-[400px]:items-center max-[400px]:gap-y-8 '>
-      <div className=' dark:bg-stone-100 bg-stone-800  w-[200px] h-[200px] rounded-md shadow-md shadow-black dark:shadow-xl flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
-        <img src={logo192} width={130} />
-        <p className='text-white dark:text-stone-900 text-xl mt-3'>React</p>
+        <p className='text-white dark:text-stone-900 text-center  mt-10 max-[400px]:px-0 text-7xl font-bold w-screen px-[150px] py-3 mb-14 '>Skills</p>
       </div>
-      <div className='dark:bg-stone-100 dark:shadow-xl bg-stone-800 w-[200px] h-[200px] rounded-md shadow-md shadow-black flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
-        <img src={logo192} width={130} />
-        <p className='text-white dark:text-stone-900 text-xl mt-3'>NodeJS</p>
+      <div className='flex justify-center gap-x-10 w-screen max-[400px]:flex-col max-[400px]:items-center max-[400px]:gap-y-8 '>
+        <div className=' dark:bg-stone-100 bg-stone-800  w-[200px] h-[200px] rounded-md shadow-md shadow-black dark:shadow-xl flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
+          <img src={logo192} width={130} />
+          <p className='text-white dark:text-stone-900 text-xl mt-3'>React</p>
+        </div>
+        <div className='dark:bg-stone-100 dark:shadow-xl bg-stone-800 w-[200px] h-[200px] rounded-md shadow-md shadow-black flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
+          <img src={node} width={130} />
+          <p className='text-white dark:text-stone-900 text-xl mt-3'>NodeJS</p>
+        </div>
+        <div className='dark:bg-stone-100 dark:shadow-xl bg-stone-800 w-[200px] h-[200px] rounded-md shadow-md shadow-black flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
+          <img src={mongo} width={130} />
+          <p className='text-white dark:text-stone-900 text-xl mt-3'>MongoDB</p>
+        </div>
+        <div className='dark:bg-stone-100 dark:shadow-xl bg-stone-800 w-[200px] h-[200px] rounded-md shadow-md shadow-black flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
+          <img src={express} width={250} />
+          <p className='text-white dark:text-stone-900 text-xl mt-3'>ExpressJS</p>
+        </div>
       </div>
-      <div className='dark:bg-stone-100 dark:shadow-xl bg-stone-800 w-[200px] h-[200px] rounded-md shadow-md shadow-black flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
-        <img src={logo192} width={130} />
-        <p className='text-white dark:text-stone-900 text-xl mt-3'>MongoDB</p>
-      </div>
-      <div className='dark:bg-stone-100 dark:shadow-xl bg-stone-800 w-[200px] h-[200px] rounded-md shadow-md shadow-black flex flex-col items-center justify-center transition ease-in-out duration-100 delay-75 hover:-translate-y-1 hover:scale-110'>
-        <img src={logo192} width={130} />
-        <p className='text-white dark:text-stone-900 text-xl mt-3'>ExpressJS</p>
-      </div>
-    </div>
 
 
     {/* Education */}
