@@ -15,7 +15,7 @@ function App() {
     }
   },[theme])
   return (
-    <div className="w-screen h-fit max-[400px]:h-fit bg-stone-900  dark:bg-neutral-100 overflow-hidden ">
+    <div className="w-screen h-full max-[400px]:h-fit bg-stone-900  dark:bg-neutral-100 overflow-hidden ">
       <div>
       <Navbar theme={theme} setTheme={setTheme}/>
       <AnimatedRoutes theme={theme} setTheme={setTheme}/>

@@ -24,7 +24,7 @@ const Navbar = (props) => {
     };
   }, []);
   function contactHandel(){
-    window.location.href = 'mailto:deveshrao202002l@gmail.com';
+    window.open('mailto:deveshrao202002l@gmail.com')
   }
   
   return (
